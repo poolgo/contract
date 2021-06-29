@@ -1,0 +1,40 @@
+{
+  "name": "@poolGo/pooltogether-contracts",
+  "description": "poolgo protocol",
+  "version": "1.0.0",
+  "files": [
+    "contracts",
+    "build",
+    "flatten"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {
+    "-": "0.0.1",
+    "@openzeppelin/buidler-upgrades": "^1.2.2",
+    "@openzeppelin/contracts": "3.2.0",
+    "@openzeppelin/contracts-upgradeable": "3.4.0",
+    "@openzeppelin/upgrades": "2.8.0",
+    "@pooltogether/fixed-point": "1.0.0-beta.2",
+    "@pooltogether/pooltogether-rng-contracts": "1.0.0",
+    "@pooltogether/uniform-random-number": "1.0.0-beta.1",
+    "abi-decoder": "^2.4.0",
+    "conflux-truffle": "^1.0.0-beta8",
+    "deploy-eip-1820": "1.0.0",
+    "save-dev": "0.0.1-security",
+    "sortition-sum-tree-factory": "0.1.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.5.0",
+    "ethereum-waffle": "2.5.0",
+    "rimraf": "^3.0.0",
+    "solc": "0.6.12"
+  },
+  "scripts": {
+    "clean": "rimraf ./build/ ./flatten/",
+    "precompile": "yarn clean",
+    "compile": "waffle .waffle.json && waffle flatten"
+  },
+  "license": "MIT"
+}

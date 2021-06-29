@@ -1,0 +1,18 @@
+
+
+### Contract Address
+
+PoolGo Contract
+cfx:acc8ya1f2a2bfphxg5ax7a8h29k47d5xsebxfj24nd
+
+PCFX Contract
+cfx:acdcavg2r2fw1ys6c9kvh4a4pyg288yr8jfw4d0pnw
+
+CfxPrizePool Contract
+cfx:acfx6kvzvutzgh19595dvkcvgnmfb3dfe6uke1uyyb
+
+PeriodicPrizeStrategy Contract
+cfx:accddc821jy2vj1uvvm9hp3buhuhbg3y9aur85nryj
+
+TokenFaucet Contract
+cfx:ace3ux15ggwyuhsrya1ttm87fyse59mnjj08b3ff9f
